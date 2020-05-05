@@ -1,6 +1,6 @@
 
 import java.io.IOException;
-
+//Implemented Abstract, interface in a class
 public class Student extends StudentDetails implements School
 {
     int age;
