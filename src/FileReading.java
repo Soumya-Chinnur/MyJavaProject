@@ -21,6 +21,8 @@ public class FileReading {
             }
 
             String user = prop.getProperty("name");
+            String example = prop.getProperty("example");
+            System.out.println(example);
             System.out.println(user);
 
         } catch (Exception e) {

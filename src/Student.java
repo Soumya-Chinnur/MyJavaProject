@@ -23,6 +23,8 @@ public class Student extends StudentDetails implements School
         s1.personalDetails("good", 18);
         s1.numOfStudents(200);
 
+        System.out.println(s1);
+
         FileReading reading = new FileReading();
         reading.getPropValues();
     }
